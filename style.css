@@ -1,0 +1,146 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.icon{
+    width: 50px;
+}
+nav a {
+    font-size: 23px; 
+    margin-left: 30px ;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+   
+    color: blue;
+}
+nav {
+    width: 100%;
+    display: flex;
+   
+    justify-content: center;
+}
+.link{
+    padding-top: 10px;
+
+}
+.about img {
+  width: 30%;
+  height: 450px;
+
+}
+.about img:hover{
+   opacity: 0.6;
+}
+.about{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.about p {
+    width: 30%;
+    font-size: 20px;
+    text-align: left;
+}
+main h1{
+    color: tomato;
+    
+}
+main h1:hover{
+    background-color: tomato;
+    color: #fff;
+}
+.box img{
+    width: 400px;
+
+    
+}
+.box{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+#descrption {
+display: flex; 
+justify-content: space-evenly;
+margin-bottom: 30px;
+} 
+.box p {
+ font-size: 30px ;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box button {
+    color: white;
+    background-color: turquoise;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 10PX;
+}
+button:hover {
+  background-color: tomato;
+}
+form {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+input{
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#comment{
+    height: 50px;
+}
+label{
+    font-size: 22px;
+}
+.send{
+    width:70px;
+    margin: auto;
+    padding: 8px 16px;
+    border :none;
+    background-color: turquoise;
+    color: #fff;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  h4:hover{
+    background-color: tomato;
+    color: #fff;
+  }
